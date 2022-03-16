@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T14:56:03.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="VxVyX6hMYWkoM3svNMpl" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-16T16:54:57.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mdqVv2PzsmW1gak2HvT8" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,19 +99,31 @@
         <mxCell id="e_4AayXEStNU0mehBLRU-24" value="修改整个产品订单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="460" y="-290" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5FaI2_AjHvMNQ4dwPlwW-0" target="5FaI2_AjHvMNQ4dwPlwW-3">
+        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5FaI2_AjHvMNQ4dwPlwW-0" target="5FaI2_AjHvMNQ4dwPlwW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="30" as="targetPoint" />
+            <mxPoint x="340" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-0" value="修改产品订单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="-70" width="120" height="40" as="geometry" />
+        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-0" value="修改产品订单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="-60" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-3" value="" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" width="100" height="80" as="geometry" />
+        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-3" value="" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="10" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-4" value="0待生产、1待预排产、2进行中、3已完成、4已取消&lt;br&gt;待生产状态可以直接修改；&lt;br&gt;如果已经投入生产了，那么需要先取消投入生产才能修改。&lt;br&gt;&lt;br&gt;进行中不可修改，如要修改要先对关联的预排产订单进行处理&lt;br&gt;已完成和已取消的产品订单不予修改" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="-100" width="50" height="100" as="geometry" />
+        <mxCell id="5FaI2_AjHvMNQ4dwPlwW-4" value="0待生产、1待预排产、2进行中、3已完成、4已取消&lt;br&gt;待生产状态可以直接修改；&lt;br&gt;如果已经投入生产了，那么需要先取消投入生产才能修改。&lt;br&gt;&lt;br&gt;进行中不可修改，如要修改要先对关联的预排产订单进行处理&lt;br&gt;已完成和已取消的产品订单不予修改" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="430" y="-90" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pQeIfIIc8u159uHe44wj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQeIfIIc8u159uHe44wj-0" target="pQeIfIIc8u159uHe44wj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQeIfIIc8u159uHe44wj-0" value="删除产品订单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="294" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQeIfIIc8u159uHe44wj-1" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQeIfIIc8u159uHe44wj-3" value="状态: 0待生产、1待预排产、2进行中、3已完成、4已取消&lt;br&gt;能否删除？&lt;br&gt;数据变动？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="110" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
