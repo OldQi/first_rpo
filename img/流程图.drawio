@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T10:35:51.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="kX1V9MeJD8Ps_hMHOyoC" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-20T10:37:27.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="JJKIfX2JNrWK6nEJAoQn" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
           <mxGeometry x="175" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pQeIfIIc8u159uHe44wj-3" value="状态: 0待生产、1待预排产、2进行中、3已完成、4已取消&lt;br&gt;能否删除？&lt;br&gt;数据变动？&lt;br&gt;有关联的预排产订单，不删除&lt;br&gt;查看是否绑定库存产品，进行解绑" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="321" y="180" width="50" height="100" as="geometry" />
+          <mxGeometry x="315" y="195" width="35" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4a2UcWddZCdq6afZ1OfK-0" value="状态: 0待交付、1已交付、2逾期、3已取消" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="670" y="-505" width="25" height="50" as="geometry" />
